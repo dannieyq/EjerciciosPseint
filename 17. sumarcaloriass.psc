@@ -1,0 +1,65 @@
+Algoritmo caloriass
+	//Definir los tipos de variables
+	Definir desayuno, almuerzo, cena como real;
+	Definir dia1, dia2, dia3, dia4, dia5, dia6, dia7, totalsemana como real;
+	//Asignar variables
+	Escribir "Día 1 - Ingrese las calorías del desayuno";
+	Leer desayuno;
+	Escribir "Día 1 - Ingrese las calorías del almuerzo";
+	Leer almuerzo;
+	Escribir "Día 1 - Ingrese las calorías del cena";
+	Leer cena;
+	dia1<- desayuno+almuerzo+cena;
+	Escribir "Día 2 - Ingrese las calorías del desayuno";
+	Leer desayuno;
+	Escribir "Día 2 - Ingrese las calorías del almuerzo";
+	Leer almuerzo;
+	Escribir "Día 2 - Ingrese las calorías del cena";
+	Leer cena;
+	dia2<- desayuno+almuerzo+cena;
+	Escribir "Día 3 - Ingrese las calorías del desayuno";
+	Leer desayuno;
+	Escribir "Día 3 - Ingrese las calorías del almuerzo";
+	Leer almuerzo;
+	Escribir "Día 3 - Ingrese las calorías del cena";
+	Leer cena;
+	dia3<- desayuno+almuerzo+cena;
+	Escribir "Día 4 - Ingrese las calorías del desayuno";
+	Leer desayuno;
+	Escribir "Día 4 - Ingrese las calorías del almuerzo";
+	Leer almuerzo;
+	Escribir "Día 4 - Ingrese las calorías del cena";
+	Leer cena;
+	dia4<- desayuno+almuerzo+cena;
+	Escribir "Día 5 - Ingrese las calorías del desayuno";
+	Leer desayuno;
+	Escribir "Día 5 - Ingrese las calorías del almuerzo";
+	Leer almuerzo;
+	Escribir "Día 5 - Ingrese las calorías del cena";
+	Leer cena;
+	dia5<- desayuno+almuerzo+cena;
+	Escribir "Día 6 - Ingrese las calorías del desayuno";
+	Leer desayuno;
+	Escribir "Día 6 - Ingrese las calorías del almuerzo";
+	Leer almuerzo;
+	Escribir "Día 6 - Ingrese las calorías del cena";
+	Leer cena;
+	dia6<- desayuno+almuerzo+cena;
+	Escribir "Día 7 - Ingrese las calorías del desayuno";
+	Leer desayuno;
+	Escribir "Día 7 - Ingrese las calorías del almuerzo";
+	Leer almuerzo;
+	Escribir "Día 7 - Ingrese las calorías del cena";
+	Leer cena;
+	//Procesar y mostrar datos
+	dia7<- desayuno+almuerzo+cena;
+	totalsemana<- dia1+día2+dia3+dia4+dia5+dia6+dia7;
+	Mostrar "El dia 1 fueron " dia1 " calorías";
+	Mostrar "El dia 2 fueron " dia2 " calorías";
+	Mostrar "El dia 3 fueron " dia3 " calorías";
+	Mostrar "El dia 4 fueron " dia4 " calorías";
+	Mostrar "El dia 5 fueron " dia5 " calorías";
+	Mostrar "El dia 6 fueron " dia6 " calorías";
+	Mostrar "El dia 7 fueron " dia7 " calorías";
+	Mostrar "El total de calorias a la semana fueron " totalsemana;
+FinAlgoritmo
